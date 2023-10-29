@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    display: flex;
+    font-family: cursive;
+}
+
+.left-div {
+    width: 50%;
+    background-color: #ffffff; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-div {
+    width: 50%;
+    color: rgb(255, 246, 219);
+    background-image: linear-gradient(to right,#000,rgb(187, 3, 76));
+    padding: 20px;
+    box-sizing: border-box;
+}
+#preloader{
+    background-color: #000 url(/img/Preloader.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
